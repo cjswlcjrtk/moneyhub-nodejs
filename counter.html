@@ -1,0 +1,35 @@
+<html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Counter</title>
+</head>
+<body>
+	<div id="counter">0</div>
+	<button id="increase">+</button>
+	<button id="decrease">-</button>
+	<script>
+		window.onload = () => {
+			const $counter = document.getElementById('counter')//아이디를 주기에 가독성상 $써줌 별 의미 없다. 돔객체에는 보통 $를 써준다.
+			const $increase = document.getElementById('increase')
+			const $decrease = document.getElementById('decrease')
+
+			let num = 0;
+			const render = function(){$counter.innerHTML = num}
+
+			$increase.onclick = () => {
+				num ++
+				render()
+			}
+			$decrease.onclick = () => {
+				num --
+				render()
+			}
+		}		
+	</script>
+</body>
+</html>
