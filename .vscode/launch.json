@@ -4,7 +4,6 @@
 {
   "version": "0.2.0",
   "configurations": [
-
     {
       "name": "Launch Chrome 127.0.0.1",
       "type": "chrome",
@@ -36,13 +35,54 @@
       "port": 9220,
       "webRoot": "${workspaceFolder}",
       "url": "http://127.0.0.1:54550/p/moneyhub-nodejs/gender-checker.html?_cmAuth\u003ddbojeobzxy"
-    }  
-,{
-  "name": "Launch Chrome 127.0.0.1 (4)",
-  "type": "chrome",
-  "request": "launch",
-  "port": 9266,
-  "webRoot": "${workspaceFolder}",
-  "url": "http://127.0.0.1:54550/p/moneyhub-nodejs/switch.html?_cmAuth\u003ddbojeobzxy"
-}]
+    },
+    {
+      "name": "Launch Chrome 127.0.0.1 (4)",
+      "type": "chrome",
+      "request": "launch",
+      "port": 9266,
+      "webRoot": "${workspaceFolder}",
+      "url": "http://127.0.0.1:54550/p/moneyhub-nodejs/switch.html?_cmAuth\u003ddbojeobzxy"
+    },
+    {
+      "name": "Launch Chrome 127.0.0.1 (5)",
+      "type": "chrome",
+      "request": "launch",
+      "port": 9269,
+      "webRoot": "${workspaceFolder}",
+      "url": "http://127.0.0.1:54550/p/moneyhub-nodejs/loop.html?_cmAuth\u003ddbojeobzxy"
+    },
+    {
+      "name": "Launch Chrome 127.0.0.1 (6)",
+      "type": "chrome",
+      "request": "launch",
+      "port": 9270,
+      "webRoot": "${workspaceFolder}",
+      "url": "http://127.0.0.1:54550/p/moneyhub-nodejs/test.html?_cmAuth\u003ddbojeobzxy"
+    },
+    {
+      "name": "Launch Chrome 127.0.0.1 (7)",
+      "type": "chrome",
+      "request": "launch",
+      "port": 9247,
+      "webRoot": "${workspaceFolder}",
+      "url": "http://127.0.0.1:54550/p/moneyhub-nodejs/loop2.html?_cmAuth\u003ddbojeobzxy"
+    },
+    {
+      "name": "Launch Chrome 127.0.0.1 (8)",
+      "type": "chrome",
+      "request": "launch",
+      "port": 9271,
+      "webRoot": "${workspaceFolder}",
+      "url": "http://127.0.0.1:54550/p/moneyhub-nodejs/login.html?_cmAuth\u003ddbojeobzxy"
+    },
+    {
+      "name": "Launch Chrome 127.0.0.1 (9)",
+      "type": "chrome",
+      "request": "launch",
+      "port": 9229,
+      "webRoot": "${workspaceFolder}",
+      "url": "http://127.0.0.1:54550/p/moneyhub-nodejs/object.html?_cmAuth\u003ddbojeobzxy"
+    }
+  ]
 }
