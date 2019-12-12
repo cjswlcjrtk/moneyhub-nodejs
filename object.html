@@ -10,29 +10,17 @@
 	<script>
 		window.onload = function(){
 			function Person(name, gender){
+				let _name = name, _gender = gender, _age
 
-				// this.name = name
-				// this.gender = gender
-				let _name = name
-				let _gender = gender
-				let _age
-
-				this.getName = function(){
-					return _name
-				}
-				this.getGender = function(){
-					return _gender
-				}
-				this.setAge = function(age){
-					_age = age
-				}
-				this.getAge = function(){
-					return _age
-				}	
 				// this.toString = function(){
 				// 	return `${person1.getName()}(${person1.getGender()})${person1.getAge()}`
 				// }			
 			}
+
+			Person.prototype.getName = function(){return _name}
+			Person.prototype.getGender = function(){return _gender}
+			Person.prototype.setAge = function(age){_age = age}
+			Person.prototype.getAge = function(){return _age}
 			let person1 = new Person('박형진', 'male');
 			person1.setAge('20')
 

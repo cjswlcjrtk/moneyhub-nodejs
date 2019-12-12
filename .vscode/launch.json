@@ -83,6 +83,30 @@
       "port": 9229,
       "webRoot": "${workspaceFolder}",
       "url": "http://127.0.0.1:54550/p/moneyhub-nodejs/object.html?_cmAuth\u003ddbojeobzxy"
+    },
+    {
+      "name": "Launch Chrome 127.0.0.1 (10)",
+      "type": "chrome",
+      "request": "launch",
+      "port": 9267,
+      "webRoot": "${workspaceFolder}",
+      "url": "http://127.0.0.1:54550/p/moneyhub-nodejs/Animal.html?_cmAuth\u003ddbojeobzxy"
+    },
+    {
+      "name": "Launch Chrome 127.0.0.1 (11)",
+      "type": "chrome",
+      "request": "launch",
+      "port": 9291,
+      "webRoot": "${workspaceFolder}",
+      "url": "http://127.0.0.1:54550/p/moneyhub-nodejs/VendingMachine.html?_cmAuth\u003ddbojeobzxy"
+    },
+    {
+      "name": "Launch Chrome 127.0.0.1 (12)",
+      "type": "chrome",
+      "request": "launch",
+      "port": 9275,
+      "webRoot": "${workspaceFolder}",
+      "url": "http://127.0.0.1:54550/p/moneyhub-nodejs/gender_checker.html?_cmAuth\u003ddbojeobzxy"
     }
   ]
 }

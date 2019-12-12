@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<script src="VendingMachine.js"></script>
+	<script src="VendingMachineService.js"></script>
+</head>
+<body>
+	<div id="box">
+		<select name="" id="itemNo">
+			<option value="">음료를 선택하세요</option>
+			<option value="콜라">콜라</option>
+			<option value="사이다">사이다</option>
+			<option value="물">물</option>
+			<option value="아이스티">아이스티</option>
+		</select>
+		<br/>
+		<select name="" id="quantity">
+			<option value="">용량선택하세요</option>
+			<option value="200">200ml</option>
+			<option value="350">350ml</option>
+			<option value="500">500ml</option>
+			<option value="1000">1000ml</option>
+		</select>
+		<br/>
+		<input type="button" id="btn" value="주문하기">
+
+	</div>
+	<script>
+	window.onload = function(){
+		const $btn = document.getElementById('btn')
+
+		$btn.addEventListener('click', function(){
+			const $itemNo = document.getElementById('itemNo')
+			const $quantity = document.getElementById('quantity')
+
+			const vms = new VendingMachineService()
+			// alert(`${$itemNo.value}   ${$quantity.value}`)
+			vms.selectItem($itemNo.value, $quantity.value)
+
+		})
+
+	}	
+	</script>
+</body>
+</html>
